@@ -1,0 +1,8 @@
+INFO - 2026-01-15 03:34:31,198 - excel_drivel.py:47 -[excel_drivel:<module>] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-15 03:34:31,198 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-15 03:34:32,569 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-15 03:34:33,780 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-15 03:34:33,952 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-15 03:34:33,992 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-15 03:34:34,535 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-15 03:34:39,541 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>

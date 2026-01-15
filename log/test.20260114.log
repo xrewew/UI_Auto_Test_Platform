@@ -1,0 +1,490 @@
+DEBUG - 2026-01-14 15:27:46,901 - logging_config.py:42 -[logging_config:<module>] - 这是一条 debug 信息
+INFO - 2026-01-14 15:27:46,901 - logging_config.py:43 -[logging_config:<module>] - 这是一条 info 信息
+WARNING - 2026-01-14 15:27:46,901 - logging_config.py:44 -[logging_config:<module>] - 这是一条 warning 信息
+ERROR - 2026-01-14 15:27:46,901 - logging_config.py:45 -[logging_config:<module>] - 这是一条 error 信息
+CRITICAL - 2026-01-14 15:27:46,901 - logging_config.py:46 -[logging_config:<module>] - 这是一条 critical 信息
+DEBUG - 2026-01-14 15:29:21,418 - logging_config.py:44 -[logging_config:<module>] - 这是一条 debug 信息
+INFO - 2026-01-14 15:29:21,418 - logging_config.py:45 -[logging_config:<module>] - 这是一条 info 信息
+WARNING - 2026-01-14 15:29:21,418 - logging_config.py:46 -[logging_config:<module>] - 这是一条 warning 信息
+ERROR - 2026-01-14 15:29:21,418 - logging_config.py:47 -[logging_config:<module>] - 这是一条 error 信息
+CRITICAL - 2026-01-14 15:29:21,418 - logging_config.py:48 -[logging_config:<module>] - 这是一条 critical 信息
+DEBUG - 2026-01-14 15:29:21,418 - logging_config.py:49 -[logging_config:<module>] - 这是一条 debug 信息
+INFO - 2026-01-14 15:29:21,418 - logging_config.py:50 -[logging_config:<module>] - 这是一条 info 信息
+WARNING - 2026-01-14 15:29:21,418 - logging_config.py:51 -[logging_config:<module>] - 这是一条 warning 信息
+ERROR - 2026-01-14 15:29:21,419 - logging_config.py:52 -[logging_config:<module>] - 这是一条 error 信息
+CRITICAL - 2026-01-14 15:29:21,419 - logging_config.py:53 -[logging_config:<module>] - 这是一条 critical 信息
+DEBUG - 2026-01-14 15:30:14,603 - logging_config.py:44 -[logging_config:<module>] - 这是一条 debug 信息
+INFO - 2026-01-14 15:30:14,603 - logging_config.py:45 -[logging_config:<module>] - 这是一条 info 信息
+WARNING - 2026-01-14 15:30:14,604 - logging_config.py:46 -[logging_config:<module>] - 这是一条 warning 信息
+ERROR - 2026-01-14 15:30:14,604 - logging_config.py:47 -[logging_config:<module>] - 这是一条 error 信息
+CRITICAL - 2026-01-14 15:30:14,604 - logging_config.py:48 -[logging_config:<module>] - 这是一条 critical 信息
+DEBUG - 2026-01-14 15:30:14,604 - logging_config.py:49 -[logging_config:<module>] - 这是一条 debug 信息
+INFO - 2026-01-14 15:30:14,604 - logging_config.py:50 -[logging_config:<module>] - 这是一条 info 信息
+WARNING - 2026-01-14 15:30:14,604 - logging_config.py:51 -[logging_config:<module>] - 这是一条 warning 信息
+ERROR - 2026-01-14 15:30:14,604 - logging_config.py:52 -[logging_config:<module>] - 这是一条 error 信息
+CRITICAL - 2026-01-14 15:30:14,604 - logging_config.py:53 -[logging_config:<module>] - 这是一条 critical 信息
+INFO - 2026-01-14 15:56:41,702 - apitest.py:3 -[apitest:<module>] - 这个是一个测试日志
+INFO - 2026-01-14 15:57:02,824 - apitest.py:3 -[apitest:<module>] - 这个是一个测试日志
+INFO - 2026-01-14 16:03:55,840 - chrome_options.py:23 -[chrome_options:<module>] - 打开了百度
+INFO - 2026-01-14 16:03:55,890 - chrome_options.py:25 -[chrome_options:<module>] - 在搜索框中输入了搞比例
+INFO - 2026-01-14 16:07:27,010 - main.py:8 -[main:main] - 主程序开始运行...
+INFO - 2026-01-14 16:07:27,010 - main.py:13 -[main:main] - 主程序运行结束。
+INFO - 2026-01-14 16:07:47,234 - main.py:8 -[main:main] - 主程序开始运行...
+INFO - 2026-01-14 16:07:47,234 - main.py:13 -[main:main] - 主程序运行结束。
+INFO - 2026-01-14 16:08:05,598 - main.py:8 -[main:main] - 主程序开始运行...
+INFO - 2026-01-14 16:08:05,598 - main.py:14 -[main:main] - 主程序运行结束。
+INFO - 2026-01-14 16:25:32,321 - chrome_options.py:23 -[chrome_options:<module>] - 打开了百度
+INFO - 2026-01-14 16:25:32,539 - chrome_options.py:25 -[chrome_options:<module>] - 在搜索框中输入了搞比例
+INFO - 2026-01-14 20:54:11,644 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 20:54:11,645 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 20:54:11,645 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 20:54:11,645 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 20:54:11,645 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 20:54:11,645 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 20:54:11,645 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-14 21:00:39,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:00:39,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:00:39,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:00:39,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:00:39,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 21:00:39,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 21:00:39,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-14 21:00:54,610 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:00:54,610 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:00:54,610 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:00:54,610 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:00:54,610 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 21:00:54,610 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 21:00:54,610 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-14 21:04:37,776 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:04:38,738 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:04:38,740 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:04:38,740 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:04:38,740 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 21:04:38,740 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 21:04:38,740 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-14 21:09:22,542 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:11:30,449 - excel_drivel.py:50 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:29:09,299 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:29:11,071 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:29:12,780 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-14 21:29:12,781 - excel_drivel.py:74 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 71, in <module>
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.input() missing 2 required positional arguments: 'value' and 'text'
+
+INFO - 2026-01-14 21:31:26,152 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:31:27,599 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:31:29,135 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-14 21:31:29,135 - excel_drivel.py:74 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 71, in <module>
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.input() missing 2 required positional arguments: 'value' and 'text'
+
+INFO - 2026-01-14 21:31:56,149 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:31:57,923 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:31:59,733 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-14 21:31:59,735 - excel_drivel.py:74 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 71, in <module>
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.input() missing 2 required positional arguments: 'value' and 'text'
+
+INFO - 2026-01-14 21:35:47,438 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:35:49,327 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:35:50,607 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-14 21:35:50,607 - excel_drivel.py:74 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 71, in <module>
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.input() missing 2 required positional arguments: 'value' and 'text'
+
+INFO - 2026-01-14 21:40:29,210 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:40:30,592 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:40:32,876 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-14 21:40:32,876 - excel_drivel.py:74 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 71, in <module>
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.input() missing 2 required positional arguments: 'value' and 'text'
+
+INFO - 2026-01-14 21:41:19,722 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:41:21,040 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:41:22,202 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-14 21:41:22,202 - excel_drivel.py:74 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 71, in <module>
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.input() missing 2 required positional arguments: 'value' and 'text'
+
+INFO - 2026-01-14 21:45:27,793 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:45:27,793 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:45:27,794 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:45:27,794 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:45:27,794 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 21:45:27,794 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 21:45:27,794 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-14 21:47:06,647 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:47:42,534 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:47:43,892 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:47:45,548 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-14 21:47:45,548 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.input() got an unexpected keyword argument 'txt'
+
+INFO - 2026-01-14 21:48:35,514 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:48:44,604 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:48:46,390 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:48:48,439 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:48:48,593 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+ERROR - 2026-01-14 21:48:51,663 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 66, in click
+    self.locator(by,value).click()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6b0b788d5
+	0x7ff6b0b78930
+	0x7ff6b0951465
+	0x7ff6b09aaf66
+	0x7ff6b099ce7f
+	0x7ff6b09d1fda
+	0x7ff6b099c746
+	0x7ff6b09fac97
+	0x7ff6b099ac29
+	0x7ff6b099ba93
+	0x7ff6b0e90620
+	0x7ff6b0e8af60
+	0x7ff6b0ea96c6
+	0x7ff6b0b95dd4
+	0x7ff6b0b9ed7c
+	0x7ff6b0b81ff4
+	0x7ff6b0b821a5
+	0x7ff6b0b67ed2
+	0x7ffff909e8d7
+	0x7ffffaa7bf2c
+
+
+INFO - 2026-01-14 21:49:25,270 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:49:26,632 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:49:28,026 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:49:28,164 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+ERROR - 2026-01-14 21:49:31,237 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 66, in click
+    self.locator(by,value).click()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6b0b788d5
+	0x7ff6b0b78930
+	0x7ff6b0951465
+	0x7ff6b09aaf66
+	0x7ff6b099ce7f
+	0x7ff6b09d1fda
+	0x7ff6b099c746
+	0x7ff6b09fac97
+	0x7ff6b099ac29
+	0x7ff6b099ba93
+	0x7ff6b0e90620
+	0x7ff6b0e8af60
+	0x7ff6b0ea96c6
+	0x7ff6b0b95dd4
+	0x7ff6b0b9ed7c
+	0x7ff6b0b81ff4
+	0x7ff6b0b821a5
+	0x7ff6b0b67ed2
+	0x7ffff909e8d7
+	0x7ffffaa7bf2c
+
+
+INFO - 2026-01-14 21:50:32,208 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:50:33,813 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:50:35,346 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:50:35,404 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+ERROR - 2026-01-14 21:50:38,547 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 66, in click
+    self.locator(by,value).click()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6b0b788d5
+	0x7ff6b0b78930
+	0x7ff6b0951465
+	0x7ff6b09aaf66
+	0x7ff6b099ce7f
+	0x7ff6b09d1fda
+	0x7ff6b099c746
+	0x7ff6b09fac97
+	0x7ff6b099ac29
+	0x7ff6b099ba93
+	0x7ff6b0e90620
+	0x7ff6b0e8af60
+	0x7ff6b0ea96c6
+	0x7ff6b0b95dd4
+	0x7ff6b0b9ed7c
+	0x7ff6b0b81ff4
+	0x7ff6b0b821a5
+	0x7ff6b0b67ed2
+	0x7ffff909e8d7
+	0x7ffffaa7bf2c
+
+
+INFO - 2026-01-14 21:52:51,693 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:52:54,809 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:52:56,477 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:52:56,606 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+ERROR - 2026-01-14 21:52:59,691 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 66, in click
+    self.locator(by,value).click()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 114, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 508, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6b0b788d5
+	0x7ff6b0b78930
+	0x7ff6b0951465
+	0x7ff6b09aaf66
+	0x7ff6b099ce7f
+	0x7ff6b09d1fda
+	0x7ff6b099c746
+	0x7ff6b09fac97
+	0x7ff6b099ac29
+	0x7ff6b099ba93
+	0x7ff6b0e90620
+	0x7ff6b0e8af60
+	0x7ff6b0ea96c6
+	0x7ff6b0b95dd4
+	0x7ff6b0b9ed7c
+	0x7ff6b0b81ff4
+	0x7ff6b0b821a5
+	0x7ff6b0b67ed2
+	0x7ffff909e8d7
+	0x7ffffaa7bf2c
+
+
+INFO - 2026-01-14 21:53:48,110 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:53:49,455 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:53:51,003 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:53:51,066 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+ERROR - 2026-01-14 21:53:51,108 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 66, in click
+    self.locator(by,value).click()
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 56, in locator
+    return self.driver.find_element(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 429, in execute
+    response = cast(RemoteConnection, self.command_executor).execute(driver_command, params)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 405, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 429, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\urllib3\request.py", line 78, in request
+    return self.request_encode_body(
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\urllib3\request.py", line 170, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\urllib3\poolmanager.py", line 376, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 1374, in getresponse
+    response.begin()
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 318, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\http\client.py", line 279, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+KeyboardInterrupt
+
+INFO - 2026-01-14 21:55:43,304 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:55:45,007 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:55:46,365 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:55:46,512 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:55:46,548 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-14 21:55:47,133 - Webkey.py:95 -[Webkey:assert_text] - Message: invalid selector: The result of the xpath expression "//*[@id="content_left"]/div[1]/div/div/text()[1]" is: [object Text]. It should be an element.
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6b0b788d5
+	0x7ff6b0b78930
+	0x7ff6b095165d
+	0x7ff6b09592cc
+	0x7ff6b095c3b4
+	0x7ff6b095c47f
+	0x7ff6b09a92e5
+	0x7ff6b09a9d3c
+	0x7ff6b09fdf67
+	0x7ff6b09fac97
+	0x7ff6b099ac29
+	0x7ff6b099ba93
+	0x7ff6b0e90620
+	0x7ff6b0e8af60
+	0x7ff6b0ea96c6
+	0x7ff6b0b95dd4
+	0x7ff6b0b9ed7c
+	0x7ff6b0b81ff4
+	0x7ff6b0b821a5
+	0x7ff6b0b67ed2
+	0x7ffff909e8d7
+	0x7ffffaa7bf2c
+
+INFO - 2026-01-14 21:55:47,147 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+ERROR - 2026-01-14 21:55:47,147 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+AttributeError: 'Webkey' object has no attribute 'wait'
+
+INFO - 2026-01-14 21:58:05,540 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:58:07,125 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:58:09,079 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:58:09,204 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:58:09,251 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-14 21:58:09,837 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 70, in <module>
+    excel.save(str(excel_PATH))
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1240, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\common\\demo.xlsx'
+
+INFO - 2026-01-14 21:58:30,519 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:58:31,852 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:58:33,336 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:58:33,481 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:58:33,542 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 21:58:34,087 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+ERROR - 2026-01-14 21:58:34,087 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+AttributeError: 'Webkey' object has no attribute 'wait'
+
+INFO - 2026-01-14 21:59:24,373 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:59:26,158 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:59:27,256 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:59:27,400 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:59:27,452 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 21:59:28,027 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+ERROR - 2026-01-14 21:59:28,028 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+AttributeError: 'Webkey' object has no attribute 'wait'
+
+INFO - 2026-01-14 21:59:56,379 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 21:59:57,798 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 21:59:59,375 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 21:59:59,522 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 21:59:59,560 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 22:00:00,045 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+ERROR - 2026-01-14 22:00:00,047 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 70, in wait
+    time.sleep(time_)
+TypeError: 'str' object cannot be interpreted as an integer
+
+INFO - 2026-01-14 22:01:16,102 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 22:01:17,370 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 22:01:18,518 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 22:01:18,663 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 22:01:18,708 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-14 22:01:19,214 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 70, in <module>
+    excel.save(str(excel_PATH))
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\workbook\workbook.py", line 386, in save
+    save_workbook(self, filename)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\writer\excel.py", line 291, in save_workbook
+    archive = ZipFile(filename, 'w', ZIP_DEFLATED, allowZip64=True)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1240, in __init__
+    self.fp = io.open(file, filemode)
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\common\\demo.xlsx'
+
+INFO - 2026-01-14 22:01:33,281 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 22:01:34,738 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 22:01:36,099 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 22:01:36,159 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 22:01:36,285 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 22:01:36,820 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 22:01:41,830 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+ERROR - 2026-01-14 22:01:41,830 - excel_drivel.py:75 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 72, in <module>
+    getattr(driver, value[1])(**test_data)
+AttributeError: 'Webkey' object has no attribute 'quit'
+
+INFO - 2026-01-14 22:02:01,722 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 22:02:03,033 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 22:02:04,407 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 22:02:04,470 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 22:02:04,594 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 22:02:04,937 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 22:02:09,953 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-14 22:03:50,989 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 22:03:52,640 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 22:03:54,479 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 22:03:54,621 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 22:03:54,671 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 22:03:55,289 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 22:04:00,292 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+ERROR - 2026-01-14 22:06:53,980 - excel_drivel.py:73 -[excel_drivel:<module>] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 47, in <module>
+    logs(f'当前sheet页名称为：{sheet.title}')
+TypeError: 'Logger' object is not callable
+
+INFO - 2026-01-14 22:07:19,189 - excel_drivel.py:47 -[excel_drivel:<module>] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-14 22:07:19,189 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-14 22:07:20,461 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-14 22:07:21,768 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-14 22:07:21,932 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-14 22:07:21,972 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-14 22:07:22,545 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-14 22:07:27,547 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
