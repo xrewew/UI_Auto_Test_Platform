@@ -95,5 +95,4 @@ class Webkey():
             logs.error(e)
             return False
 
-webkey = Webkey('chrome')
-webkey.open('http://127.0.0.1:8000')
+

@@ -6,3 +6,48 @@ INFO - 2026-01-15 03:34:33,952 - excel_drivel.py:51 -[excel_drivel:<module>] - �
 INFO - 2026-01-15 03:34:33,992 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：对测试结果进行断言<UNK>
 INFO - 2026-01-15 03:34:34,535 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：强制等待5秒<UNK>
 INFO - 2026-01-15 03:34:39,541 - excel_drivel.py:51 -[excel_drivel:<module>] - 正在执行的操作为：关闭浏览器<UNK>
+ERROR - 2026-01-15 20:53:16,807 - excel_drivel.py:52 -[excel_drivel:excel_run] - Excel文件不存在: C:\Users\Xie-Xixin\Desktop\python\practice\excel
+ERROR - 2026-01-15 20:54:18,603 - excel_drivel.py:52 -[excel_drivel:excel_run] - Excel文件不存在: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-15 20:55:23,555 - excel_drivel.py:63 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+ERROR - 2026-01-15 20:55:32,828 - excel_drivel.py:93 -[excel_drivel:excel_run] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 66, in excel_run
+    sheet = excel[name]
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 66, in excel_run
+    sheet = excel[name]
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2025.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1220, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2025.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1235, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+INFO - 2026-01-15 20:57:57,371 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-15 20:57:57,371 - excel_drivel.py:63 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-15 20:57:57,374 - excel_drivel.py:67 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-15 20:57:57,374 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-15 20:57:59,090 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-15 20:58:01,778 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-15 20:58:01,919 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-15 20:58:01,958 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-15 20:58:02,516 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-15 20:58:07,525 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-15 20:58:07,606 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-15 21:01:59,476 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-15 21:01:59,476 - excel_drivel.py:63 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-15 21:01:59,480 - excel_drivel.py:67 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-15 21:01:59,481 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-15 21:02:13,582 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-15 21:02:13,582 - excel_drivel.py:63 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-15 21:02:13,585 - excel_drivel.py:67 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-15 21:02:13,587 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-15 21:02:15,324 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-15 21:02:16,605 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-15 21:02:16,776 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-15 21:02:16,815 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-15 21:02:17,369 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-15 21:02:22,375 - excel_drivel.py:71 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-15 21:02:22,459 - main.py:16 -[main:main] - 主程序运行结束。

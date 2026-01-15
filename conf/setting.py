@@ -13,6 +13,8 @@ sys.path.append(DIR_PATH)
 # 文件路径设置: 定义一个字典来集中管理项目中用到的各个文件和目录的路径
 FILE_PATH = {
     # 日志文件存放目录
-    'LOG': os.path.join(DIR_PATH, 'log')
+    'LOG': os.path.join(DIR_PATH, 'log'),
+    # excel文件存放目录
+    'excel': os.path.join(DIR_PATH, 'testcase')
 }
 

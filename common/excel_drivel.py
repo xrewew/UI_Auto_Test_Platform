@@ -1,3 +1,4 @@
+import os
 import pathlib
 
 from conf.setting import DIR_PATH
@@ -41,35 +42,49 @@ def arguments(data):
             temp_data[t[0]] = t[1] # 以等号左边的字符串为key，等号右边的字符串为value，存储到字典中
     return temp_data
 
-try:
-    for name in excel.sheetnames: #遍历所有sheet页
-        sheet = excel[name]
-        logs.info(f'当前sheet页名称为：{sheet.title}')
-        for value in sheet.values:
-            #读取测试用例的正文内容
-            if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
-                logs.info(f"正在执行的操作为：{value[3]}<UNK>")
-            # 参数的解析：将参数解析为字典格式。方便直接传入到函数之中。
-                test_data = arguments(value[2]) #获取每一行的操作参数
-                """
-                 所有的操作分为如下不同类型：
-                            1. 实例化driver对象
-                            2. 基于driver对象进行的常规操作行为
-                            3. 断言，因为需要对excel文件进行写入
-                """
-                if value[1] == 'open_browser':
-                    driver = Webkey(**test_data)
-                elif 'assert' in value[1]: #所有需要断言的测试用例都要以assert开头
-                    status = getattr(driver, value[1])(**test_data,expected =value[4])
-                    #通过断言方法生成一个结果，基于结果来判断流程的结果是成功还是失败
-                    if status:
-                        sheet.cell(row=value[0] + 2, column=6).value = 'PASS'
+def excel_run():
+    """
+    从excel文件中读取测试用例，并执行这些用例。
+    """
+    excel_path = os.path.join(DIR_PATH, 'testcase', 'demo.xlsx')
+    # 验证文件是否存在
+    if not os.path.exists(excel_path):
+        logs.error(f"Excel文件不存在: {excel_path}")
+        print(f"错误: Excel文件不存在 - {excel_path}")
+        return
+    try:
+        # 加载外部Excel文件
+        logs.info(f"正在加载Excel文件: {excel_path}")
+        excel = openpyxl.load_workbook(excel_path)
+        for name in excel.sheetnames: #遍历所有sheet页
+            sheet = excel[name]
+            logs.info(f'当前sheet页名称为：{sheet.title}')
+            for value in sheet.values:
+                #读取测试用例的正文内容
+                if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
+                    logs.info(f"正在执行的操作为：{value[3]}<UNK>")
+                # 参数的解析：将参数解析为字典格式。方便直接传入到函数之中。
+                    test_data = arguments(value[2]) #获取每一行的操作参数
+                    """
+                     所有的操作分为如下不同类型：
+                                1. 实例化driver对象
+                                2. 基于driver对象进行的常规操作行为
+                                3. 断言，因为需要对excel文件进行写入
+                    """
+                    if value[1] == 'open_browser':
+                        driver = Webkey(**test_data)
+                    elif 'assert' in value[1]: #所有需要断言的测试用例都要以assert开头
+                        status = getattr(driver, value[1])(**test_data,expected =value[4])
+                        #通过断言方法生成一个结果，基于结果来判断流程的结果是成功还是失败
+                        if status:
+                            sheet.cell(row=value[0] + 2, column=6).value = 'PASS'
+                        else:
+                            sheet.cell(row=value[0] + 2, column=6).value = 'FAIL'
+                        excel.save(excel_PATH)
                     else:
-                        sheet.cell(row=value[0] + 2, column=6).value = 'FAIL'
-                    excel.save(str(excel_PATH))
-                else:
-                    getattr(driver, value[1])(**test_data)
-except:
-    logs.error(traceback.format_exc())
-finally:
-    excel.close()
+                        getattr(driver, value[1])(**test_data)
+    except:
+        logs.error(traceback.format_exc())
+    finally:
+        excel.close()
+
