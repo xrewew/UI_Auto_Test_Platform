@@ -1,7 +1,10 @@
 import logging
+import os
+import threading
 
 from common.excel_drivel import excel_run, sum_pass_fail
 from logging_conf.logging_config import logs
+from common.excel_drivel import find_testcase
 """
     程序的主入口，所有一切的程序调用都从这里开始运行的。
 """
@@ -25,13 +28,21 @@ from logging_conf.logging_config import logs
 def main():
     """主应用程序逻辑"""
     logs.info("主程序开始运行...")
-
-    # 调用其他模块的功能
-    excel_run()
+    cases = find_testcase()
+    th = []
+    for case in cases:
+        print(case)
+        thead = threading.Thread(target=excel_run, args=[case]) #创建线程，target指定线程要执行的函数，args指定函数的参数
+        th.append(thead) #将线程添加到线程组列表中
+    # for t in th:
+    #     t.start() #启动线程
 
     logs.info("主程序运行结束。")
 
 
 if __name__ == "__main__":
     main()
-    sum_pass_fail()
+    # sum_pass_fail()
+
+
+

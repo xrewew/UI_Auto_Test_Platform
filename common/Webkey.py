@@ -36,12 +36,12 @@ def open_browser(type_):
         """
         try:
             if type_ == 'chrome':
-                driver = webdriver.Chrome(service=service, options=chrome_options())
+                driver = webdriver.Chrome(service=service,options=chrome_options())
             else:
                 driver = getattr(webdriver, type_.capitalize())()
             return driver
         except:
-            return webdriver.Chrome(service=service)
+            return webdriver.Chrome(service=service,options=chrome_options())
 
 
 #关键字驱动

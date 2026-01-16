@@ -17,9 +17,10 @@ def chrome_options():
     # #OPTION中最常用的两种设置项修改方法
     # options.add_argument()
     # options.add_experimental_option()
-    # 关闭沙盒模式
-    options.add_argument('--no-sandbox')
-
+    # # 关闭沙盒模式
+    # options.add_argument('--no-sandbox')
+    # 关掉控制台多余的日志信息,并关掉浏览器自动化控制警告
+    options.add_experimental_option("excludeSwitches", ["enable-logging_conf","enable-automation"])
     # 窗口最大化
     # options.add_argument('--start-maximized')
     # 指定窗口位置
@@ -45,16 +46,11 @@ def chrome_options():
     # options.add_argument(r"--user-data-dir=C:\Users\Xie-Xixin\AppData\Local\Google\Chrome\User Data")
 
     # 保持浏览器打开,因为浏览器打开后会自动关闭,所以需要设置保持浏览器打开
-    options.add_experimental_option("detach", True)
-
-    # 关掉控制台多余的日志信息
-    options.add_experimental_option("excludeSwitches", ["enable-logging_conf"])
+    # options.add_experimental_option("detach", True)
     # 进一步去除控制台多余日志信息,如果去除了，会导致一些错误信息无法打印出来
     options.add_argument("--log-level=3")
     options.add_argument("--disable-gpu")
     options.add_argument("--disable-certificate-error")
 
-    # 关掉浏览器自动化控制警告
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
 
     return options

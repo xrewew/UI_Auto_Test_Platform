@@ -77,14 +77,12 @@ fail_count = 0 #记录失败的用例数量
 fail_case = []
 fail_files = None
 
-def excel_run():
+def excel_run(case_):
     """
     从excel文件中读取测试用例，并执行这些用例。
     """
     global pass_count, fail_count, pass_count, fail_case, fail_file
-
-    excel_paths = find_testcase() #获取测试用例集合中的所有元素，即所有测试用例的路径
-    # 验证文件是否存在
+    excel_paths = case #获取测试用例集合中的所有元素，即所有测试用例的路径
     try:
         for excel_path in excel_paths:
                 # 加载外部Excel文件
