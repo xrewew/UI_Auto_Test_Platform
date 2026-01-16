@@ -12,6 +12,8 @@ def chrome_options():
     # 页面在载策略
     options.page_load_strategy = 'normal'
 
+    # 无头模式：浏览器不以窗口形式打开,而是在后台运行，可以减少浏览器的资源占用
+    options.add_argument('--headless')
     # #OPTION中最常用的两种设置项修改方法
     # options.add_argument()
     # options.add_experimental_option()
@@ -24,8 +26,6 @@ def chrome_options():
     options.add_argument('--window-position=700,200')
     # 指定窗口大小
     options.add_argument('--window-size=1800,1300')
-    # 无头模式：浏览器不以窗口形式打开,而是在后台运行，可以减少浏览器的资源占用
-    # options.add_argument('--headless')
 
     # 账号密码管理：浏览器帐号密码管理窗口提示关闭
     prefs = {"credentials-enable-service": False,

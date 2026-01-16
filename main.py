@@ -1,6 +1,6 @@
 import logging
 
-from common.excel_drivel import excel_run
+from common.excel_drivel import excel_run, sum_pass_fail
 from logging_conf.logging_config import logs
 """
     程序的主入口，所有一切的程序调用都从这里开始运行的。
@@ -18,3 +18,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    sum_pass_fail()

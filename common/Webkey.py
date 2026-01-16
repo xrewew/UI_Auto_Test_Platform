@@ -30,7 +30,10 @@ from logging_conf.logging_config import logs
 def open_browser(type_):
         # 浏览器调用
         file_service_path = pathlib.Path(__file__).parents[1].resolve() / "chromedriver.exe"
-        service = Service(str(file_service_path))
+        service = Service(str(file_service_path),service_args=["--disable-selenium-manager"])
+        """
+            # 禁用Selenium Manager禁用 Selenium Manager，这样就不会尝试进行网络请求,Selenium Manager仍会默认尝试进行网络请求来检查Chrome浏览器和驱动的版本兼容性。
+        """
         try:
             if type_ == 'chrome':
                 driver = webdriver.Chrome(service=service, options=chrome_options())

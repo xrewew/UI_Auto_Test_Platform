@@ -1,0 +1,1244 @@
+INFO - 2026-01-16 10:25:35,484 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 10:25:35,484 - excel_drivel.py:57 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 10:25:35,486 - excel_drivel.py:61 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 10:25:35,487 - excel_drivel.py:65 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 10:25:36,796 - excel_drivel.py:65 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 10:25:37,326 - excel_drivel.py:65 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-16 10:25:40,400 - excel_drivel.py:87 -[excel_drivel:excel_run] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 85, in excel_run
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 60, in input
+    el = self.locator(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 56, in locator
+    return self.driver.find_element(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="chat-textarea"]"}
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff67c8a88d5
+	0x7ff67c8a8930
+	0x7ff67c68165d
+	0x7ff67c6d9a33
+	0x7ff67c6d9d3c
+	0x7ff67c72df67
+	0x7ff67c72ac97
+	0x7ff67c6cac29
+	0x7ff67c6cba93
+	0x7ff67cbc0620
+	0x7ff67cbbaf60
+	0x7ff67cbd96c6
+	0x7ff67c8c5dd4
+	0x7ff67c8ced7c
+	0x7ff67c8b1ff4
+	0x7ff67c8b21a5
+	0x7ff67c897ed2
+	0x7fff1a3ee8d7
+	0x7fff1a77bf2c
+
+
+INFO - 2026-01-16 10:25:40,400 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:20:07,379 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:20:07,380 - excel_drivel.py:78 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:20:07,382 - excel_drivel.py:82 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:20:07,382 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:20:08,640 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 11:20:09,986 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 11:20:10,061 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 11:20:10,203 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 11:20:11,035 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 11:20:16,040 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 11:20:16,117 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:21:24,311 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:21:24,311 - excel_drivel.py:78 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:21:24,314 - excel_drivel.py:82 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:21:24,314 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:21:25,557 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 11:21:27,259 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 11:21:27,428 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 11:21:27,469 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 11:21:28,066 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 11:21:33,079 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 11:21:33,155 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:24:48,164 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:25:23,260 - excel_drivel.py:78 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:25:35,036 - excel_drivel.py:82 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:26:27,601 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+ERROR - 2026-01-16 11:28:30,242 - excel_drivel.py:108 -[excel_drivel:excel_run] - Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 85, in excel_run
+    if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 85, in excel_run
+    if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2025.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1220, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2025.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1235, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+INFO - 2026-01-16 11:28:30,242 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:29:59,009 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:33:57,191 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:33:57,192 - excel_drivel.py:78 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:33:57,203 - excel_drivel.py:82 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:33:57,203 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:33:58,449 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 11:34:00,056 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 11:34:00,198 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 11:34:00,281 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 11:34:00,806 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 11:34:05,815 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 11:34:05,901 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:49:50,153 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:49:50,153 - excel_drivel.py:84 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:49:50,163 - excel_drivel.py:88 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:49:50,163 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:49:51,498 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 11:49:52,051 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-16 11:49:55,055 - excel_drivel.py:116 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 114, in excel_run
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 60, in input
+    el = self.locator(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 56, in locator
+    return self.driver.find_element(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="chat-textarea"]"}
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff67c8a88d5
+	0x7ff67c8a8930
+	0x7ff67c68165d
+	0x7ff67c6d9a33
+	0x7ff67c6d9d3c
+	0x7ff67c72df67
+	0x7ff67c72ac97
+	0x7ff67c6cac29
+	0x7ff67c6cba93
+	0x7ff67cbc0620
+	0x7ff67cbbaf60
+	0x7ff67cbd96c6
+	0x7ff67c8c5dd4
+	0x7ff67c8ced7c
+	0x7ff67c8b1ff4
+	0x7ff67c8b21a5
+	0x7ff67c897ed2
+	0x7fff1a3ee8d7
+	0x7fff1a77bf2c
+
+
+INFO - 2026-01-16 11:49:55,055 - excel_drivel.py:121 -[excel_drivel:excel_run] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 11:49:55,056 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:50:20,464 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:50:20,464 - excel_drivel.py:84 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:50:20,474 - excel_drivel.py:88 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:50:20,474 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:50:26,248 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:50:26,248 - excel_drivel.py:84 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:50:26,261 - excel_drivel.py:88 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:50:26,261 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:50:27,513 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 11:50:29,178 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 11:50:29,261 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 11:50:29,387 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 11:50:29,970 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 11:50:31,980 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 11:50:32,056 - excel_drivel.py:121 -[excel_drivel:excel_run] - 测试执行完成，成功用例数: 1, 失败用例数: 0
+INFO - 2026-01-16 11:50:32,057 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:53:21,114 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:53:21,115 - excel_drivel.py:84 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:53:21,125 - excel_drivel.py:88 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:53:21,125 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:53:31,022 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 11:53:31,023 - excel_drivel.py:84 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 11:53:31,033 - excel_drivel.py:88 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 11:53:31,033 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 11:53:32,294 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 11:53:34,146 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 11:53:34,311 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 11:53:34,367 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 11:53:34,864 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 11:53:36,869 - excel_drivel.py:92 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 11:53:36,947 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 11:53:36,947 - excel_drivel.py:126 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 0
+INFO - 2026-01-16 12:00:20,569 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:00:20,570 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:00:20,580 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:00:20,581 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:00:21,878 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:00:24,104 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:00:24,169 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:00:24,304 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:00:24,774 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:00:26,782 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:00:26,862 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:00:26,862 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 0
+INFO - 2026-01-16 12:00:26,862 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：[]
+INFO - 2026-01-16 12:01:22,665 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:01:22,665 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:01:22,675 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:01:22,675 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:01:24,120 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:01:25,750 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:01:25,913 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:01:25,961 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:01:26,535 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:01:28,544 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:01:28,622 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:01:28,622 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 0
+INFO - 2026-01-16 12:01:28,622 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：[]
+INFO - 2026-01-16 12:05:03,731 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:05:03,731 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:05:03,741 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:05:03,742 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:05:05,085 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:05:06,767 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:05:06,857 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:05:06,986 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:05:07,517 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:05:09,521 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:05:09,599 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:05:09,599 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:05:10,905 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:05:12,955 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:05:13,017 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:05:13,143 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:05:13,666 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:05:13,684 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:05:15,696 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:05:15,772 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:05:15,772 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 12:05:15,772 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo.xlsx下的：Sheet2']
+INFO - 2026-01-16 12:07:01,469 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:07:01,469 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:07:01,479 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:07:01,479 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:07:02,838 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:07:04,702 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:07:04,850 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:07:04,902 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:07:05,543 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:07:07,544 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:07:07,627 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:07:07,627 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:07:08,872 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:07:10,893 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:07:11,041 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:07:11,086 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:07:11,760 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+ERROR - 2026-01-16 12:07:11,762 - excel_drivel.py:118 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 113, in excel_run
+    fail_case.append(excel_path+'下的：'+name+'第'+str(value[1]+4)+'行') #用来展示失败用例的位置
+TypeError: can only concatenate str (not "int") to str
+
+INFO - 2026-01-16 12:07:11,762 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:07:11,762 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 12:07:11,762 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：[]
+INFO - 2026-01-16 12:07:45,312 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:07:45,312 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:07:45,322 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:07:45,323 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:07:52,488 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:07:52,489 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:07:52,499 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:07:52,500 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:08:02,666 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:08:02,666 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:08:02,676 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:08:02,676 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:08:17,583 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:08:17,584 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:08:17,594 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:08:17,594 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:08:25,298 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:08:25,298 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:08:25,308 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:08:25,308 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:08:26,616 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:08:28,650 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:08:28,731 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:08:28,866 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:08:29,474 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:08:31,482 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:08:31,557 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:08:31,557 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:08:32,810 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:08:34,446 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:08:34,511 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:08:34,639 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:08:35,192 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:08:35,199 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:08:37,201 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:08:37,278 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:08:37,279 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 12:08:37,279 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo.xlsx下的：Sheet2第7行']
+INFO - 2026-01-16 12:09:05,069 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:09:06,313 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-16 12:09:06,316 - excel_drivel.py:118 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 116, in excel_run
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 60, in input
+    el = self.locator(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 56, in locator
+    return self.driver.find_element(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=143.0.7499.193)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff67c8a88d5
+	0x7ff67c8a8930
+	0x7ff67c68165d
+	0x7ff67c6591b1
+	0x7ff67c7097e6
+	0x7ff67c72a5c2
+	0x7ff67c6cac29
+	0x7ff67c6cba93
+	0x7ff67cbc0620
+	0x7ff67cbbaf60
+	0x7ff67cbd96c6
+	0x7ff67c8c5dd4
+	0x7ff67c8ced7c
+	0x7ff67c8b1ff4
+	0x7ff67c8b21a5
+	0x7ff67c897ed2
+	0x7fff1a3ee8d7
+	0x7fff1a77bf2c
+
+
+INFO - 2026-01-16 12:09:06,316 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:09:06,316 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 12:09:06,316 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：[]
+INFO - 2026-01-16 12:10:23,011 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:10:23,012 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:10:23,022 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:10:23,022 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:10:24,050 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:10:26,808 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:10:26,951 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:10:27,001 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:10:27,778 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:10:29,789 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:10:29,866 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:10:29,866 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:10:30,895 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:10:32,989 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:10:33,050 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:10:33,187 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:10:33,697 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+ERROR - 2026-01-16 12:10:33,697 - excel_drivel.py:118 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 113, in excel_run
+    fail_case.append(excel_path+'下的：'+name+'第'+str(value[0]+2)+'行'+'测试序号为：'+value[0]+'的测试用例') #用来展示失败用例的位置
+TypeError: can only concatenate str (not "int") to str
+
+INFO - 2026-01-16 12:10:33,698 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:10:33,698 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 12:10:33,698 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：[]
+INFO - 2026-01-16 12:11:03,937 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:11:03,938 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:11:03,948 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:11:03,950 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:11:04,950 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:11:06,835 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:11:07,025 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:11:07,077 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:11:07,663 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:11:09,663 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:11:09,738 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:11:09,739 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:11:10,752 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:11:13,209 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:11:13,274 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:11:13,391 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:11:13,886 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+ERROR - 2026-01-16 12:11:13,887 - excel_drivel.py:118 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 113, in excel_run
+    fail_case.append(excel_path+'下的：'+name+'第'+str(value[0]+2)+'行测试序号为：'+value[0]+'的测试用例') #用来展示失败用例的位置
+TypeError: can only concatenate str (not "int") to str
+
+INFO - 2026-01-16 12:11:13,887 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:11:13,887 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 12:11:13,887 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：[]
+INFO - 2026-01-16 12:12:05,672 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:12:05,673 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:12:05,685 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:12:05,685 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:12:06,750 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:12:09,736 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:12:09,802 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:12:09,845 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:12:10,522 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:12:12,531 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:12:12,607 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:12:12,607 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:12:13,625 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:12:16,386 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:12:16,520 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:12:16,572 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:12:17,144 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:12:17,150 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:12:19,158 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:12:19,232 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:12:19,233 - excel_drivel.py:128 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 12:12:19,233 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 失败用例的位置：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo.xlsx下的：Sheet2第7行测试序号为：5的测试用例']
+INFO - 2026-01-16 12:33:16,967 - excel_drivel.py:87 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:33:24,758 - excel_drivel.py:91 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+ERROR - 2026-01-16 12:33:29,099 - excel_drivel.py:120 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 94, in excel_run
+    if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 94, in excel_run
+    if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1187, in _pydevd_bundle.pydevd_cython_win32_310_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 627, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1103, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 1065, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle\\pydevd_cython_win32_310_64.pyx", line 585, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+  File "C:\Program Files\JetBrains\PyCharm 2025.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1220, in do_wait_suspend
+    self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+  File "C:\Program Files\JetBrains\PyCharm 2025.1\plugins\python-ce\helpers\pydev\pydevd.py", line 1235, in _do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
+
+INFO - 2026-01-16 12:33:50,148 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:33:50,148 - excel_drivel.py:87 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo.xlsx
+INFO - 2026-01-16 12:33:50,159 - excel_drivel.py:91 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:33:50,159 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:33:51,188 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:33:53,486 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:33:53,586 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:33:53,720 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:33:54,445 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:33:56,459 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:33:56,543 - excel_drivel.py:91 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:33:56,543 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:33:57,608 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:34:00,188 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:34:00,254 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:34:00,369 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:34:00,838 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:34:00,845 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:34:02,849 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:34:02,926 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:34:02,926 - excel_drivel.py:130 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 12:34:02,926 - excel_drivel.py:131 -[excel_drivel:sum_pass_fail] - 失败用例的位置：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo.xlsx下的：Sheet2第7行测试序号为：5的测试用例']
+INFO - 2026-01-16 12:38:05,766 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:38:05,766 - excel_drivel.py:72 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 12:38:05,766 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 12:38:05,777 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:38:05,777 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:38:06,795 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:38:08,325 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:38:08,473 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:38:08,529 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:38:09,134 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:38:11,136 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:38:11,214 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:38:11,214 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:38:12,245 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:38:14,623 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:38:14,755 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:38:14,808 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:38:15,476 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:38:15,484 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:38:17,497 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:38:17,573 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx
+INFO - 2026-01-16 12:38:17,577 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:38:17,577 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:38:18,591 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:38:20,631 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:38:20,696 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:38:20,742 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:38:21,365 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:38:23,380 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:38:23,456 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:38:23,456 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:38:24,476 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:38:26,089 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:38:26,253 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:38:26,306 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:38:26,837 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:38:28,871 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:38:30,877 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:38:30,975 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3-.xlsx
+INFO - 2026-01-16 12:38:30,979 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:38:30,979 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:38:31,998 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:38:33,657 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:38:33,822 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:38:33,862 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:38:34,502 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:38:36,504 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:38:36,579 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:38:36,579 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:38:37,583 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:38:39,233 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:38:39,410 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:38:39,461 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:38:40,185 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:38:40,199 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:38:42,209 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:38:42,284 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:38:42,285 - excel_drivel.py:151 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 3, 失败用例数: 3
+INFO - 2026-01-16 12:38:42,285 - excel_drivel.py:152 -[excel_drivel:sum_pass_fail] - 失败用例的位置：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2 .xlsx下的：Sheet2第7行测试序号为：5的测试用例', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3-.xlsx下的：Sheet2第7行测试序号为：5的测试用例']
+INFO - 2026-01-16 12:40:43,910 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:40:43,911 - excel_drivel.py:72 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 12:40:43,911 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 12:40:43,924 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:40:43,924 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:40:44,962 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:40:46,489 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:40:46,556 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:40:46,702 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:40:47,304 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:40:49,308 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:40:49,383 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:40:49,383 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:40:50,388 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:40:52,248 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:40:52,403 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:40:52,451 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:40:53,083 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:40:53,090 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:40:55,098 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:40:55,200 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx
+INFO - 2026-01-16 12:40:55,205 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:40:55,205 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:40:56,221 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:40:57,989 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:40:58,152 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:40:58,192 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:40:58,855 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:41:00,859 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:41:00,936 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:41:00,936 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:41:01,948 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:41:04,111 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:41:04,280 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:41:04,344 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:41:04,887 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:41:04,894 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:41:06,906 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:41:06,989 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3-.xlsx
+INFO - 2026-01-16 12:41:06,994 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:41:06,994 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:41:08,011 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:41:09,457 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:41:09,528 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:41:09,659 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:41:10,189 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:41:12,190 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:41:12,268 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:41:12,268 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:41:13,280 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:41:15,150 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:41:15,231 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:41:15,279 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:41:15,888 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:41:15,902 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:41:17,914 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:41:17,989 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:41:17,990 - excel_drivel.py:151 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 3, 失败用例数: 3
+INFO - 2026-01-16 12:41:17,990 - excel_drivel.py:152 -[excel_drivel:sum_pass_fail] - 失败用例的位置：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例\n', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2 .xlsx下的：Sheet2第7行测试序号为：5的测试用例\n', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3-.xlsx下的：Sheet2第7行测试序号为：5的测试用例\n']
+INFO - 2026-01-16 12:43:02,018 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:43:02,018 - excel_drivel.py:72 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 12:43:02,018 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 12:43:02,029 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:43:02,029 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:43:03,058 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:43:04,545 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:43:04,720 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:43:04,780 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:43:05,476 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:43:07,480 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:43:07,560 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:43:07,561 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:43:08,587 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:43:10,790 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:43:10,854 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:43:10,987 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:43:11,624 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:43:11,630 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:43:13,633 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:43:13,716 - excel_drivel.py:108 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx
+INFO - 2026-01-16 12:43:13,720 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:43:13,721 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:43:14,740 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:43:16,368 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:43:16,512 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:43:16,560 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:43:17,271 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:43:19,279 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:43:19,356 - excel_drivel.py:112 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:43:19,357 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:43:20,386 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:43:21,882 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:43:21,956 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:43:22,106 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:43:22,653 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:43:22,660 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:43:24,674 - excel_drivel.py:116 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:43:24,752 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:43:24,752 - excel_drivel.py:151 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 12:43:24,752 - excel_drivel.py:153 -[excel_drivel:sum_pass_fail] - C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 12:43:24,752 - excel_drivel.py:153 -[excel_drivel:sum_pass_fail] - C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 12:49:03,007 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:49:03,008 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 12:49:03,008 - excel_drivel.py:87 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 12:49:03,020 - excel_drivel.py:91 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:49:03,020 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:49:04,045 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:49:05,885 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:49:05,956 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:49:06,083 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:49:06,639 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:49:08,646 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:49:08,723 - excel_drivel.py:91 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:49:08,723 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:49:09,751 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:49:11,580 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:49:11,745 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:49:11,794 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:49:12,406 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:49:12,412 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:49:14,418 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:49:14,495 - excel_drivel.py:87 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx
+INFO - 2026-01-16 12:49:14,498 - excel_drivel.py:91 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:49:14,499 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:49:15,495 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:49:16,854 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:49:16,931 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:49:16,985 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:49:17,651 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:49:19,653 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:49:19,731 - excel_drivel.py:91 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:49:19,731 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:49:20,732 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:49:22,829 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:49:22,907 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:49:23,026 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:49:23,546 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:49:23,554 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:49:25,567 - excel_drivel.py:95 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:49:25,643 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:49:25,644 - excel_drivel.py:130 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 12:49:25,644 - excel_drivel.py:132 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 12:49:25,644 - excel_drivel.py:132 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 12:50:53,363 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:50:53,363 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 12:50:53,363 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 12:50:53,374 - excel_drivel.py:90 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:50:53,374 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:50:54,427 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:50:56,568 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:50:56,647 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:50:56,772 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:50:57,236 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:50:59,246 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:50:59,325 - excel_drivel.py:90 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:50:59,325 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:51:00,341 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:51:02,764 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:51:02,919 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:51:02,973 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:51:03,824 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:51:03,834 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:51:05,847 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:51:05,925 - excel_drivel.py:86 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx
+INFO - 2026-01-16 12:51:05,928 - excel_drivel.py:90 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:51:05,928 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:51:06,955 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:51:09,062 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:51:09,276 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:51:09,352 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:51:10,089 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:51:12,093 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:51:12,167 - excel_drivel.py:90 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:51:12,167 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:51:13,164 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:51:14,725 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:51:14,921 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:51:14,976 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:51:15,752 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:51:15,759 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:51:17,759 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:51:17,835 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:51:17,835 - excel_drivel.py:129 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 12:51:17,835 - excel_drivel.py:131 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 12:51:17,836 - excel_drivel.py:131 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 12:51:46,903 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 12:51:46,903 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 12:51:46,903 - excel_drivel.py:82 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 12:51:46,913 - excel_drivel.py:86 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:51:46,913 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:51:47,913 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:51:49,889 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:51:49,957 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:51:50,075 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:51:50,536 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:51:52,545 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:51:52,620 - excel_drivel.py:86 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:51:52,622 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:51:53,642 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:51:56,263 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:51:56,411 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:51:56,450 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:51:57,196 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:51:57,202 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:51:59,217 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:51:59,293 - excel_drivel.py:82 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx
+INFO - 2026-01-16 12:51:59,297 - excel_drivel.py:86 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 12:51:59,297 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:52:00,311 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:52:02,131 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:52:02,191 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:52:02,325 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 12:52:02,904 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:52:04,906 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:52:04,983 - excel_drivel.py:86 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 12:52:04,983 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 12:52:06,002 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 12:52:07,920 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 12:52:08,026 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 12:52:08,159 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 12:52:08,690 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 12:52:08,696 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 12:52:10,703 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 12:52:10,778 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 12:52:10,779 - excel_drivel.py:125 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 12:52:10,779 - excel_drivel.py:127 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 12:52:10,779 - excel_drivel.py:127 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2 .xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:07:32,342 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:08:15,227 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:08:57,755 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:19:03,478 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:19:03,479 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:19:03,479 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:19:03,489 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:19:03,490 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:19:04,827 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:19:08,063 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:19:08,134 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:19:08,270 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:19:08,776 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:19:10,780 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:19:10,859 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:19:10,859 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:19:12,136 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:19:13,754 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:19:13,922 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:19:13,982 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:19:14,631 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:19:14,638 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:19:16,642 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:19:16,720 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:19:16,720 - excel_drivel.py:132 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 13:19:16,720 - excel_drivel.py:134 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:20:15,873 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:20:15,873 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:20:15,874 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:20:15,885 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:20:15,885 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:20:17,494 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:20:19,361 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:20:19,443 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:20:19,586 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:20:20,179 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:20:22,194 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:20:22,279 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:20:22,279 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:20:23,566 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:20:24,648 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:20:24,718 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:20:24,815 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:20:25,582 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:20:25,588 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:20:27,595 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:20:27,671 - excel_drivel.py:124 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:20:27,671 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:20:27,671 - excel_drivel.py:134 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 1, 失败用例数: 1
+INFO - 2026-01-16 13:20:27,672 - excel_drivel.py:136 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:21:05,559 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:21:05,559 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:21:05,559 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:21:05,559 - excel_drivel.py:134 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:23:10,726 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:23:10,726 - excel_drivel.py:53 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:23:10,726 - excel_drivel.py:60 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_history.xlsx 已被跳过
+INFO - 2026-01-16 13:23:10,726 - excel_drivel.py:60 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_history .xlsx 已被跳过
+INFO - 2026-01-16 13:23:10,726 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:23:10,726 - excel_drivel.py:134 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:26:20,766 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:26:20,766 - excel_drivel.py:54 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:26:20,766 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:26:20,776 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:26:20,776 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:26:22,023 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:26:24,225 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:26:24,366 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:26:24,414 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:26:24,976 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:26:26,983 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:26:27,058 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:26:27,059 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:26:28,309 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:26:29,636 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:26:29,702 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:26:29,830 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:26:30,373 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:26:30,379 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:26:32,381 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:26:32,455 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:26:32,457 - excel_drivel.py:85 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-16 13:26:32,460 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:26:32,461 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:26:33,984 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:26:36,077 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:26:36,144 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:26:36,264 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:26:36,859 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:26:38,866 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:26:38,942 - excel_drivel.py:89 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:26:38,943 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:26:40,287 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:26:41,575 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:26:41,640 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:26:41,689 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:26:42,359 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:26:42,366 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:26:44,375 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:26:44,450 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:26:44,451 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:26:44,451 - excel_drivel.py:136 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 13:26:44,451 - excel_drivel.py:138 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:26:44,451 - excel_drivel.py:138 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:28:15,644 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:28:15,644 - excel_drivel.py:54 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:28:15,644 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:28:15,645 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+INFO - 2026-01-16 13:28:15,645 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:28:15,645 - excel_drivel.py:136 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:31:04,378 - excel_drivel.py:54 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:31:04,378 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:31:04,378 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+ERROR - 2026-01-16 13:31:04,380 - excel_drivel.py:65 -[excel_drivel:find_testcase] - testcase文件夹下没有任何新添加的测试用例
+INFO - 2026-01-16 13:31:57,635 - excel_drivel.py:54 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:32:13,761 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:32:16,365 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+ERROR - 2026-01-16 13:32:32,566 - excel_drivel.py:65 -[excel_drivel:find_testcase] - testcase文件夹下没有任何新添加的测试用例
+INFO - 2026-01-16 13:37:22,375 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:37:22,375 - excel_drivel.py:54 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:37:22,375 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:37:22,376 - excel_drivel.py:61 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+ERROR - 2026-01-16 13:37:22,376 - excel_drivel.py:65 -[excel_drivel:find_testcase] - testcase文件夹下没有任何新添加的测试用例
+INFO - 2026-01-16 13:37:22,376 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:37:22,376 - excel_drivel.py:140 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:44:01,224 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:44:01,224 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:44:01,226 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:44:01,226 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+INFO - 2026-01-16 13:44:01,226 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到2个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx'],开始执行测试用例
+INFO - 2026-01-16 13:44:01,226 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:44:01,235 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:44:01,235 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:44:02,510 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:44:03,811 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:44:04,038 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:44:04,080 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:44:04,858 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:44:06,866 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:44:06,942 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:44:06,942 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:44:25,482 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:44:25,482 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:44:25,482 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:44:25,483 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+INFO - 2026-01-16 13:44:25,483 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到2个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx'],开始执行测试用例
+INFO - 2026-01-16 13:44:25,483 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:44:25,494 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:44:25,494 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:44:26,735 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:44:28,235 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:44:28,300 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:44:28,344 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:44:28,984 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:44:30,998 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:44:31,074 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:44:31,074 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:44:32,373 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:44:33,750 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:44:33,814 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:44:33,942 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:44:34,637 - Webkey.py:95 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:44:34,645 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:44:36,645 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:44:36,719 - excel_drivel.py:131 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:44:36,720 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-16 13:44:36,724 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:44:36,724 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:48:48,497 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:48:48,497 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:48:48,497 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:48:48,497 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134436_history.xlsx 已被跳过
+INFO - 2026-01-16 13:48:48,498 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+INFO - 2026-01-16 13:48:48,498 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到1个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx'],开始执行测试用例
+INFO - 2026-01-16 13:48:48,498 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-16 13:48:48,510 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:48:48,510 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:48:51,141 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:48:51,357 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-16 13:48:54,365 - excel_drivel.py:123 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 121, in excel_run
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 63, in input
+    el = self.locator(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 59, in locator
+    return self.driver.find_element(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="chat-textarea"]"}
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff67c8a88d5
+	0x7ff67c8a8930
+	0x7ff67c68165d
+	0x7ff67c6d9a33
+	0x7ff67c6d9d3c
+	0x7ff67c72df67
+	0x7ff67c72ac97
+	0x7ff67c6cac29
+	0x7ff67c6cba93
+	0x7ff67cbc0620
+	0x7ff67cbbaf60
+	0x7ff67cbd96c6
+	0x7ff67c8c5dd4
+	0x7ff67c8ced7c
+	0x7ff67c8b1ff4
+	0x7ff67c8b21a5
+	0x7ff67c897ed2
+	0x7fff1a3ee8d7
+	0x7fff1a77bf2c
+
+
+INFO - 2026-01-16 13:48:54,365 - excel_drivel.py:131 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:48:54,366 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:48:54,366 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:48:57,772 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:48:57,772 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:48:57,773 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116132632_history.xlsx 已被跳过
+INFO - 2026-01-16 13:48:57,773 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134436_history.xlsx 已被跳过
+INFO - 2026-01-16 13:48:57,773 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116132644_history.xlsx 已被跳过
+INFO - 2026-01-16 13:48:57,773 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116134854_history.xlsx 已被跳过
+ERROR - 2026-01-16 13:48:57,773 - excel_drivel.py:68 -[excel_drivel:find_testcase] - testcase文件夹下没有任何新添加的测试用例
+INFO - 2026-01-16 13:48:57,774 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:48:57,774 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:49:26,338 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:49:26,338 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:49:26,338 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134436_history.xlsx 已被跳过
+INFO - 2026-01-16 13:49:26,339 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116134854_history.xlsx 已被跳过
+INFO - 2026-01-16 13:49:26,339 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到2个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx'],开始执行测试用例
+INFO - 2026-01-16 13:49:26,339 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:49:26,349 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:49:26,349 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:49:27,991 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:49:28,486 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-16 13:49:31,545 - excel_drivel.py:123 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 121, in excel_run
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 63, in input
+    el = self.locator(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 59, in locator
+    return self.driver.find_element(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="chat-textarea"]"}
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff67c8a88d5
+	0x7ff67c8a8930
+	0x7ff67c68165d
+	0x7ff67c6d9a33
+	0x7ff67c6d9d3c
+	0x7ff67c72df67
+	0x7ff67c72ac97
+	0x7ff67c6cac29
+	0x7ff67c6cba93
+	0x7ff67cbc0620
+	0x7ff67cbbaf60
+	0x7ff67cbd96c6
+	0x7ff67c8c5dd4
+	0x7ff67c8ced7c
+	0x7ff67c8b1ff4
+	0x7ff67c8b21a5
+	0x7ff67c897ed2
+	0x7fff1a3ee8d7
+	0x7fff1a77bf2c
+
+
+INFO - 2026-01-16 13:49:31,546 - excel_drivel.py:131 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:49:31,546 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-16 13:49:31,550 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:49:31,550 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:49:32,822 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:49:33,127 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-16 13:49:36,168 - excel_drivel.py:123 -[excel_drivel:excel_run] - 在执行测试用例时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 121, in excel_run
+    getattr(driver, value[1])(**test_data)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 63, in input
+    el = self.locator(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\Webkey.py", line 59, in locator
+    return self.driver.find_element(by,value)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 802, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 432, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="chat-textarea"]"}
+  (Session info: chrome=143.0.7499.193); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff67c8a88d5
+	0x7ff67c8a8930
+	0x7ff67c68165d
+	0x7ff67c6d9a33
+	0x7ff67c6d9d3c
+	0x7ff67c72df67
+	0x7ff67c72ac97
+	0x7ff67c6cac29
+	0x7ff67c6cba93
+	0x7ff67cbc0620
+	0x7ff67cbbaf60
+	0x7ff67cbd96c6
+	0x7ff67c8c5dd4
+	0x7ff67c8ced7c
+	0x7ff67c8b1ff4
+	0x7ff67c8b21a5
+	0x7ff67c897ed2
+	0x7fff1a3ee8d7
+	0x7fff1a77bf2c
+
+
+INFO - 2026-01-16 13:49:36,168 - excel_drivel.py:131 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:49:36,168 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:49:36,168 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:49:47,566 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:49:47,566 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:49:47,566 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134436_history.xlsx 已被跳过
+INFO - 2026-01-16 13:49:47,566 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134931_history.xlsx 已被跳过
+INFO - 2026-01-16 13:49:47,566 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116134854_history.xlsx 已被跳过
+INFO - 2026-01-16 13:49:47,566 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116134936_history.xlsx 已被跳过
+ERROR - 2026-01-16 13:49:47,567 - excel_drivel.py:68 -[excel_drivel:find_testcase] - testcase文件夹下没有任何新添加的测试用例
+INFO - 2026-01-16 13:49:47,567 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:49:47,567 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 13:54:21,145 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:54:21,145 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:54:21,145 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134931_history.xlsx 已被跳过
+INFO - 2026-01-16 13:54:21,145 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116134936_history.xlsx 已被跳过
+INFO - 2026-01-16 13:54:21,145 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到2个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx'],开始执行测试用例
+INFO - 2026-01-16 13:54:21,145 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:54:21,155 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:54:21,156 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:54:22,944 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:54:24,998 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:54:25,081 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:54:25,212 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:54:25,739 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:54:27,745 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:54:27,821 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:54:27,821 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:54:29,173 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:54:30,762 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:54:30,825 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:54:30,937 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:54:31,442 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:54:31,448 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:54:33,454 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:54:33,529 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-16 13:54:33,534 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:54:33,534 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:54:34,975 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:54:36,380 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:54:36,520 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:54:36,571 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:54:37,103 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:54:39,108 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:54:39,185 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:54:39,185 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:54:40,571 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:54:42,224 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:54:42,375 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:54:42,424 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:54:43,142 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:54:43,149 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:54:45,163 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:54:45,238 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:54:45,239 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:54:45,239 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 13:54:45,239 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:54:45,239 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:55:54,199 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 13:55:54,200 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 13:55:54,200 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134931_history.xlsx 已被跳过
+INFO - 2026-01-16 13:55:54,200 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135445_history.xlsx 已被跳过
+INFO - 2026-01-16 13:55:54,200 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到2个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx'],开始执行测试用例
+INFO - 2026-01-16 13:55:54,200 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 13:55:54,211 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:55:54,212 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:55:55,529 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:55:57,328 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:55:57,465 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:55:57,521 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:55:58,119 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:56:00,130 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:56:00,204 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:56:00,205 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:56:01,453 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:56:02,802 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:56:02,865 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:56:02,999 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:56:03,482 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:56:03,488 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:56:05,489 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:56:05,565 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:56:05,565 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-16 13:56:05,569 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 13:56:05,570 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:56:06,890 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:56:08,348 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:56:08,501 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:56:08,549 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 13:56:09,132 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:56:11,141 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:56:11,215 - excel_drivel.py:94 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 13:56:11,215 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 13:56:12,497 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 13:56:14,189 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 13:56:14,343 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 13:56:14,395 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 13:56:15,079 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 13:56:15,086 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 13:56:17,093 - excel_drivel.py:98 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 13:56:17,169 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 13:56:17,169 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 13:56:17,170 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 13:56:17,170 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 13:56:17,170 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 15:18:12,023 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 15:18:12,023 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 15:18:12,024 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134931_history.xlsx 已被跳过
+INFO - 2026-01-16 15:18:12,024 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116135605_history.xlsx 已被跳过
+INFO - 2026-01-16 15:18:12,024 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135445_history.xlsx 已被跳过
+INFO - 2026-01-16 15:18:12,024 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135617_history.xlsx 已被跳过
+ERROR - 2026-01-16 15:18:12,024 - excel_drivel.py:68 -[excel_drivel:find_testcase] - testcase文件夹下没有任何新添加的测试用例
+INFO - 2026-01-16 15:20:50,331 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 15:20:50,332 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 15:20:50,332 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116134931_history.xlsx 已被跳过
+INFO - 2026-01-16 15:20:50,332 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116135605_history.xlsx 已被跳过
+INFO - 2026-01-16 15:20:50,332 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135445_history.xlsx 已被跳过
+INFO - 2026-01-16 15:20:50,332 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135617_history.xlsx 已被跳过
+ERROR - 2026-01-16 15:20:50,332 - excel_drivel.py:68 -[excel_drivel:find_testcase] - testcase文件夹下没有任何新添加的测试用例
+INFO - 2026-01-16 15:20:50,332 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 15:20:50,332 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-16 15:22:16,446 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 15:22:16,446 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 15:22:16,446 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116135605_history.xlsx 已被跳过
+INFO - 2026-01-16 15:22:16,446 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135617_history.xlsx 已被跳过
+INFO - 2026-01-16 15:22:16,446 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到2个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx'],开始执行测试用例
+INFO - 2026-01-16 15:22:16,447 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 15:22:16,458 - excel_drivel.py:96 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 15:22:16,458 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 15:22:17,712 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 15:22:20,501 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 15:22:20,651 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 15:22:20,702 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 15:22:21,248 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 15:22:23,259 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 15:22:23,335 - excel_drivel.py:96 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 15:22:23,335 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 15:22:24,634 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 15:22:26,172 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 15:22:26,338 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 15:22:26,393 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 15:22:27,053 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 15:22:27,066 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 15:22:29,069 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 15:22:29,151 - excel_drivel.py:129 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 15:22:29,151 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-16 15:22:29,156 - excel_drivel.py:96 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 15:22:29,156 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 15:22:30,499 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 15:22:31,681 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 15:22:31,827 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 15:22:31,870 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-16 15:22:32,446 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 15:22:34,451 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 15:22:34,525 - excel_drivel.py:96 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-16 15:22:34,526 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 15:22:35,762 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 15:22:37,234 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 15:22:37,322 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 15:22:37,436 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 15:22:38,065 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-16 15:22:38,070 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-16 15:22:40,072 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-16 15:22:40,151 - excel_drivel.py:129 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-16 15:22:40,151 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 15:22:40,151 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 2, 失败用例数: 2
+INFO - 2026-01-16 15:22:40,151 - excel_drivel.py:145 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 15:22:40,151 - excel_drivel.py:145 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-16 15:25:21,263 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 15:25:21,263 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116152229_history.xlsx 已被跳过
+INFO - 2026-01-16 15:25:21,263 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135617_history.xlsx 已被跳过
+INFO - 2026-01-16 15:25:21,263 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116152240_history.xlsx 已被跳过
+INFO - 2026-01-16 15:25:21,264 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到1个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx'],开始执行测试用例
+INFO - 2026-01-16 15:25:29,555 - main.py:11 -[main:main] - 主程序开始运行...
+INFO - 2026-01-16 15:25:29,555 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-16 15:25:29,556 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo1_20260116152229_history.xlsx 已被跳过
+INFO - 2026-01-16 15:25:29,556 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116135617_history.xlsx 已被跳过
+INFO - 2026-01-16 15:25:29,556 - excel_drivel.py:63 -[excel_drivel:find_testcase] - 查询到历史已执行过的测试文件：demo2_20260116152240_history.xlsx 已被跳过
+INFO - 2026-01-16 15:25:29,556 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到1个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx'],开始执行测试用例
+INFO - 2026-01-16 15:25:29,556 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-16 15:25:29,566 - excel_drivel.py:96 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-16 15:25:29,566 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-16 15:25:30,899 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-16 15:25:32,492 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-16 15:25:32,680 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-16 15:25:32,748 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-16 15:25:32,748 - excel_drivel.py:134 -[excel_drivel:excel_run] - 在执行测试用例文件‘C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 123, in excel_run
+    getattr(driver, value[1])(**test_data)
+TypeError: Webkey.assert_text() missing 1 required positional argument: 'expected'
+
+INFO - 2026-01-16 15:25:32,748 - main.py:16 -[main:main] - 主程序运行结束。
+INFO - 2026-01-16 15:25:32,748 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
