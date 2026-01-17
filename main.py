@@ -2,7 +2,7 @@ import logging
 import os
 import threading
 
-from common.excel_drivel import excel_run, sum_pass_fail
+from common.excel_drivel import excel_run, sum_pass_fail, change_excel
 from logging_conf.logging_config import logs
 from common.excel_drivel import find_testcase
 """
@@ -30,19 +30,23 @@ def main():
     logs.info("主程序开始运行...")
     cases = find_testcase()
     th = []
-    for case in cases:
-        print(case)
-        thead = threading.Thread(target=excel_run, args=[case]) #创建线程，target指定线程要执行的函数，args指定函数的参数
+    for testcase in cases:
+        thead = threading.Thread(target=excel_run, args=[testcase]) #创建线程，target指定线程要执行的函数，args指定函数的参数
         th.append(thead) #将线程添加到线程组列表中
-    # for t in th:
-    #     t.start() #启动线程
+    for t in th:
+        t.start() #启动线程
+    #等待所有线程执行完毕
+    for t in th:
+        t.join()
 
     logs.info("主程序运行结束。")
 
 
 if __name__ == "__main__":
-    main()
+    # main()
     # sum_pass_fail()
+    #修改历史执行过的测试用例文件的文件名，将第一个_后面的时间戳以及_history后缀名去除
+    change_excel()
 
 
 

@@ -1,0 +1,22 @@
+-
+  common: &common
+    type_: Chrome
+    url: http://hcc.fecmall.com/customer/account/login
+    user:
+      by: id
+      value: email
+    pwd:
+      by: id
+      value: pass
+    button:
+      by: id
+      value: js_registBtn
+    wait: 5
+  name: 2375154305@qq.com
+  password: hcc123456
+
+-
+  common:
+    <<: *common
+  name: 123
+  password: 123456

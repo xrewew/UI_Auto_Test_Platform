@@ -15,6 +15,7 @@ FILE_PATH = {
     # 日志文件存放目录
     'LOG': os.path.join(DIR_PATH, 'log'),
     # excel文件存放目录
-    'excel': os.path.join(DIR_PATH, 'testcase')
+    'excel': os.path.join(DIR_PATH, 'testcase'),
+    'yaml': os.path.join(DIR_PATH, 'testcase', 'login.yaml')
 }
 

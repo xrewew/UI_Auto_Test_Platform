@@ -1,5 +1,7 @@
 import os
 import pathlib
+import shutil
+import threading
 import time
 
 from openpyxl.styles import PatternFill, Font
@@ -75,63 +77,86 @@ def find_testcase():
 pass_count = 0 #记录成功的用例数量
 fail_count = 0 #记录失败的用例数量
 fail_case = []
-fail_files = None
+fail_file = None
 
-def excel_run(case_):
+#创建进程锁，用于在多线程环境下对共享资源进行同步访问
+lock = threading.Lock()
+
+def excel_run(testcase):
     """
     从excel文件中读取测试用例，并执行这些用例。
     """
     global pass_count, fail_count, pass_count, fail_case, fail_file
-    excel_paths = case #获取测试用例集合中的所有元素，即所有测试用例的路径
     try:
-        for excel_path in excel_paths:
-                # 加载外部Excel文件
-                logs.info(f"正在加载Excel文件: {excel_path}")
-                excel = openpyxl.load_workbook(excel_path)
-                for name in excel.sheetnames: #遍历所有sheet页
-                    sheet = excel[name]
-                    fail_file = excel_path
-                    logs.info(f'当前sheet页名称为：{sheet.title}')
-                    for value in sheet.values:
-                        #读取测试用例的正文内容
-                        if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
-                            logs.info(f"正在执行的操作为：{value[3]}<UNK>")
-                        # 参数的解析：将参数解析为字典格式。方便直接传入到函数之中。
-                            test_data = arguments(value[2]) #获取每一行的操作参数
-                            """
-                             所有的操作分为如下不同类型：
-                                        1. 实例化driver对象
-                                        2. 基于driver对象进行的常规操作行为
-                                        3. 断言，因为需要对excel文件进行写入
-                            """
-                            if value[1] == 'open_browser':
-                                driver = Webkey(**test_data)
-                            elif 'assert' in value[1]: #所有需要断言的测试用例都要以assert开头
-                                status = getattr(driver, value[1])(**test_data,expected =value[4])
-                                #通过断言方法生成一个结果，基于结果来判断流程的结果是成功还是失败
-                                if status:
-                                    pass_(sheet.cell(row=value[0] + 2, column=6))
-                                    pass_count += 1
-                                else:
-                                    fail_(sheet.cell(row=value[0] + 2, column=6))
-                                    fail_count += 1
-                                    fail_case.append(excel_path+'下的：'+name+'第'+str(value[0]+2)+'行测试序号为：'+str(value[0])+'的测试用例') #用来展示失败用例的位置
-                                excel.save(excel_path)
-                            else:
-                                getattr(driver, value[1])(**test_data)
+        excel_path = testcase # 获取测试用例集合中的所有元素，即所有测试用例的路径
+        fail_file = excel_path
+        logs.info(f"正在加载Excel文件: {excel_path}")
+        excel = openpyxl.load_workbook(excel_path)
+        for name in excel.sheetnames: #遍历所有sheet页
+            sheet = excel[name]
+            logs.info(f'当前sheet页名称为：{sheet.title}')
+            for value in sheet.values:
+                #读取测试用例的正文内容
+                if type(value[0]) is int: #基于序号的数据类型来判断是否进入正文
+                    logs.info(f"正在执行的操作为：{value[3]}<UNK>")
+                # 参数的解析：将参数解析为字典格式。方便直接传入到函数之中。
+                    test_data = arguments(value[2]) #获取每一行的操作参数
+                    """
+                     所有的操作分为如下不同类型：
+                                1. 实例化driver对象
+                                2. 基于driver对象进行的常规操作行为
+                                3. 断言，因为需要对excel文件进行写入
+                    """
+                    if value[1] == 'open_browser':
+                        driver = Webkey(**test_data)
+                    elif 'assert' in value[1]: #所有需要断言的测试用例都要以assert开头
+                        status = getattr(driver, value[1])(**test_data,expected =value[4])
+                        #通过断言方法生成一个结果，基于结果来判断流程的结果是成功还是失败
+                        if status:
+                            pass_(sheet.cell(row=value[0] + 2, column=6))
+                            with lock:
+                                pass_count += 1
+                        else:
+                            fail_(sheet.cell(row=value[0] + 2, column=6))
+                            with lock:
+                                fail_count += 1
+                            fail_case.append(excel_path+'下的：'+name+'第'+str(value[0]+2)+'行测试序号为：'+str(value[0])+'的测试用例') #用来展示失败用例的位置
+                        excel.save(excel_path)
+                    else:
+                        getattr(driver, value[1])(**test_data)
 
-                # 修改文件名在执行完成后，将测试用例文件后面添加_时间_history后缀名
-                #当前时间
-                current_time = time.strftime("%Y%m%d%H%M%S", time.localtime())
-                os.rename(excel_path, excel_path.replace('.xlsx', f'_{current_time}_history.xlsx'))
-                logs.info(f'测试用例文件：{excel_path}执行完成，已添加_history后缀名')
-                # 关闭excel
-                excel.close()
+        # 修改文件名在执行完成后，将测试用例文件后面添加_时间_history后缀名
+        #当前时间
+        current_time = time.strftime("%Y%m%d%H%M%S", time.localtime())
+        os.rename(excel_path, excel_path.replace('.xlsx', f'_{current_time}_history.xlsx'))
+        logs.info(f'测试用例文件：{excel_path}执行完成，已添加_history后缀名')
+        # 关闭excel
+        excel.close()
     except:
         #记录出现错误的测试用例文件
         logs.error(f"在执行测试用例文件‘{fail_file}’时发生错误: {traceback.format_exc()}")
 
+# 修改历史执行过的测试用例文件的文件名，将第一个_后面的名字去除。仅用于代码测试便利
+def change_excel():
+    for path,dir,files in os.walk(os.path.join(DIR_PATH, 'testcase')):
+        for file in files:
+            if file.endswith('.xlsx'): #筛选出所有的excel文件
+                if '_history' in file:
+                    logs.info('查询到历史已执行过的测试文件：'+file+'即将修改为原始文件名')
+                    # 修复：正确提取原始文件名（保留第一个下划线前的部分 + .xlsx扩展名）
+                    base_name = os.path.splitext(file)[0]  # 去掉扩展名
+                    original_name = base_name.split('_')[0] + '.xlsx'  # 取第一个下划线前的部分 + 扩展名
 
+                    old_path = os.path.join(path, file)
+                    new_path = os.path.join(path, original_name)
+
+                    try:
+                        os.rename(old_path, new_path) # 重命名文件（如果目标文件已存在，会抛出FileExistsError）
+                        logs.info(f'修改成功，文件名为：{original_name}')
+                    except FileExistsError as e:
+                        logs.error(f'重命名文件 {file} 失败：{str(e)}')
+                else:
+                    logs.info('没有检测到历史文件，无需修改，文件列表为'+file+'<UNK>')
 
 def sum_pass_fail():
     """
@@ -143,5 +168,4 @@ def sum_pass_fail():
         logs.info(f'失败用例的位置：{filecase}')
 
 if __name__ == '__main__':
-    case = find_testcase()
-    print(case)
+    change_excel()

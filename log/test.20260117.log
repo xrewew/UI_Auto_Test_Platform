@@ -1,0 +1,525 @@
+INFO - 2026-01-17 11:29:46,059 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:29:46,059 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:29:46,059 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:29:46,060 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:29:46,060 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:29:46,060 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:29:46,061 - main.py:40 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 11:29:46,061 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:30:48,829 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:30:48,829 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:30:48,829 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:30:48,830 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:30:48,830 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:30:48,830 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:30:48,830 - main.py:40 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 11:30:48,831 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:31:21,823 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:31:23,543 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:31:29,504 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:32:25,604 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:32:25,604 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:32:25,605 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:32:25,605 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:32:25,605 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:32:25,605 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:32:25,606 - main.py:40 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 11:32:25,607 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:34:15,865 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:34:15,866 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:34:15,866 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:34:15,866 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:34:15,867 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:34:15,867 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:34:15,867 - main.py:40 -[main:main] - 主程序运行结束。
+ERROR - 2026-01-17 11:34:15,867 - excel_drivel.py:132 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 90, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+ERROR - 2026-01-17 11:34:15,867 - excel_drivel.py:132 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 90, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+INFO - 2026-01-17 11:34:15,868 - excel_drivel.py:141 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+ERROR - 2026-01-17 11:34:15,868 - excel_drivel.py:132 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 90, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+INFO - 2026-01-17 11:35:21,976 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:35:21,976 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:35:21,976 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:35:21,978 - main.py:40 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 11:35:21,978 - excel_drivel.py:142 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:35:21,984 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:35:21,984 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:35:21,984 - excel_drivel.py:90 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+ERROR - 2026-01-17 11:35:21,986 - excel_drivel.py:133 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 91, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+ERROR - 2026-01-17 11:35:21,986 - excel_drivel.py:133 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 91, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+ERROR - 2026-01-17 11:35:21,986 - excel_drivel.py:133 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 91, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+INFO - 2026-01-17 11:37:48,904 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:37:48,904 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:37:48,904 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:37:48,905 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:37:48,905 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:37:48,905 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C
+INFO - 2026-01-17 11:37:48,905 - main.py:39 -[main:main] - 主程序运行结束。
+ERROR - 2026-01-17 11:37:48,906 - excel_drivel.py:134 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 92, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+ERROR - 2026-01-17 11:37:48,906 - excel_drivel.py:134 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 92, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+ERROR - 2026-01-17 11:37:48,906 - excel_drivel.py:134 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 92, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 93, in _validate_archive
+    raise InvalidFileException(msg)
+openpyxl.utils.exceptions.InvalidFileException: openpyxl does not support  file format, please check you can open it with Excel first. Supported formats are: .xlsx,.xlsm,.xltx,.xltm
+
+INFO - 2026-01-17 11:37:48,906 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:39:07,396 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:39:07,396 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:39:07,396 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:39:07,397 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-17 11:39:07,397 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-17 11:39:07,397 - main.py:39 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 11:39:07,397 - excel_drivel.py:91 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx
+INFO - 2026-01-17 11:39:07,397 - excel_drivel.py:143 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:39:07,404 - excel_drivel.py:96 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 11:39:07,404 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+ERROR - 2026-01-17 11:39:07,417 - excel_drivel.py:134 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 92, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 295, in read
+    self.read_properties()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 175, in read_properties
+    src = fromstring(self.archive.read(ARC_CORE))
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1465, in read
+    return fp.read()
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 909, in read
+    buf += self._read1(self.MAX_N)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1013, in _read1
+    self._update_crc(data)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 941, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'docProps/core.xml'
+
+ERROR - 2026-01-17 11:39:07,417 - excel_drivel.py:134 -[excel_drivel:excel_run] - 在执行测试用例文件‘None’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 92, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 295, in read
+    self.read_properties()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 175, in read_properties
+    src = fromstring(self.archive.read(ARC_CORE))
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1465, in read
+    return fp.read()
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 909, in read
+    buf += self._read1(self.MAX_N)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1013, in _read1
+    self._update_crc(data)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 941, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'docProps/core.xml'
+
+INFO - 2026-01-17 11:39:08,992 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:39:10,915 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:39:11,003 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:39:11,115 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 11:39:11,761 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:39:13,774 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:39:13,849 - excel_drivel.py:96 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 11:39:13,850 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:39:15,168 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:39:16,601 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:39:16,770 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:39:16,811 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-17 11:39:17,418 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 11:39:17,438 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:39:19,439 - excel_drivel.py:100 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:39:19,512 - excel_drivel.py:129 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 11:52:15,063 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:52:15,064 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:52:15,064 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:52:15,064 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-17 11:52:15,064 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-17 11:52:15,064 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx
+INFO - 2026-01-17 11:52:15,064 - main.py:39 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 11:52:15,065 - excel_drivel.py:140 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:52:15,071 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 11:52:15,072 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+ERROR - 2026-01-17 11:52:15,083 - excel_drivel.py:131 -[excel_drivel:excel_run] - 在执行测试用例文件‘C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 90, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 295, in read
+    self.read_properties()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 175, in read_properties
+    src = fromstring(self.archive.read(ARC_CORE))
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1465, in read
+    return fp.read()
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 909, in read
+    buf += self._read1(self.MAX_N)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1013, in _read1
+    self._update_crc(data)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 941, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'docProps/core.xml'
+
+ERROR - 2026-01-17 11:52:15,084 - excel_drivel.py:131 -[excel_drivel:excel_run] - 在执行测试用例文件‘C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx’时发生错误: Traceback (most recent call last):
+  File "C:\Users\Xie-Xixin\Desktop\python\practice\common\excel_drivel.py", line 90, in excel_run
+    excel = openpyxl.load_workbook(excel_path)
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 348, in load_workbook
+    reader.read()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 295, in read
+    self.read_properties()
+  File "C:\Users\Xie-Xixin\Desktop\apiFlaskService\.venv\lib\site-packages\openpyxl\reader\excel.py", line 175, in read_properties
+    src = fromstring(self.archive.read(ARC_CORE))
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1465, in read
+    return fp.read()
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 909, in read
+    buf += self._read1(self.MAX_N)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 1013, in _read1
+    self._update_crc(data)
+  File "C:\Users\Xie-Xixin\AppData\Local\Programs\Python\Python310\lib\zipfile.py", line 941, in _update_crc
+    raise BadZipFile("Bad CRC-32 for file %r" % self.name)
+zipfile.BadZipFile: Bad CRC-32 for file 'docProps/core.xml'
+
+INFO - 2026-01-17 11:52:16,414 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:52:18,100 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:52:18,247 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:52:18,277 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 11:52:18,776 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:52:20,784 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:52:20,859 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 11:52:20,859 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:52:22,155 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:52:23,441 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:52:23,505 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:52:23,614 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-17 11:52:24,105 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 11:52:24,128 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:52:26,138 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:52:26,209 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 11:54:09,630 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 11:54:09,631 - excel_drivel.py:55 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 11:54:09,631 - excel_drivel.py:71 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 11:54:09,632 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-17 11:54:09,632 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-17 11:54:09,632 - excel_drivel.py:89 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx
+INFO - 2026-01-17 11:54:09,632 - main.py:39 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 11:54:09,633 - excel_drivel.py:140 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 0, 失败用例数: 0
+INFO - 2026-01-17 11:54:09,639 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 11:54:09,641 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 11:54:09,642 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:54:09,643 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:54:09,644 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 11:54:09,644 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:54:10,927 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:54:10,943 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:54:10,959 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:54:12,064 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:54:12,193 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:54:12,313 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 11:54:12,439 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:54:12,521 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:54:12,601 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 11:54:12,824 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:54:12,955 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:54:13,016 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:54:13,065 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 11:54:13,149 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:54:13,696 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:54:14,961 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:54:15,034 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 11:54:15,034 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:54:15,163 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:54:15,234 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 11:54:15,235 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:54:15,705 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:54:15,782 - excel_drivel.py:93 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 11:54:15,782 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 11:54:16,286 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:54:16,520 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:54:17,051 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 11:54:18,216 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:54:18,405 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:54:18,464 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 11:54:18,511 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:54:18,686 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:54:18,728 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-17 11:54:19,083 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 11:54:19,089 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:54:19,444 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 11:54:19,525 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 11:54:19,643 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-17 11:54:19,648 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 11:54:19,655 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+ERROR - 2026-01-17 11:54:20,345 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 11:54:20,355 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 11:54:21,090 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:54:21,163 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 11:54:21,663 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:54:21,736 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 11:54:22,362 - excel_drivel.py:97 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 11:54:22,434 - excel_drivel.py:126 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 12:10:12,729 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_20260117115421_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:10:38,815 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_20260117115421_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:10:38,816 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo1_history.xlsx
+INFO - 2026-01-17 12:10:38,816 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_20260117115422_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:10:38,816 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo2_history.xlsx
+INFO - 2026-01-17 12:10:38,817 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_20260117115421_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:10:38,817 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo3_history.xlsx
+INFO - 2026-01-17 12:11:16,989 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:11:16,989 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo1_history.xlsx
+INFO - 2026-01-17 12:11:16,989 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:11:16,990 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo2_history.xlsx
+INFO - 2026-01-17 12:11:16,990 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:11:16,990 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo3_history.xlsx
+INFO - 2026-01-17 12:15:18,354 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:15:18,354 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：history.xlsx
+INFO - 2026-01-17 12:15:18,354 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:15:18,354 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：history.xlsx
+INFO - 2026-01-17 12:15:18,354 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:15:18,354 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：history.xlsx
+INFO - 2026-01-17 12:17:00,887 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:17:00,887 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo1_history.xlsx
+INFO - 2026-01-17 12:17:00,887 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:17:00,887 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo2_history.xlsx
+INFO - 2026-01-17 12:17:00,888 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:17:00,888 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo3_history.xlsx
+INFO - 2026-01-17 12:18:05,887 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:18:05,888 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo1_history.xlsx
+INFO - 2026-01-17 12:18:05,888 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:18:05,888 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo2_history.xlsx
+INFO - 2026-01-17 12:18:05,888 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:18:05,889 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo3_history.xlsx
+INFO - 2026-01-17 12:18:13,554 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:18:13,554 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo1_history.xlsx
+INFO - 2026-01-17 12:18:13,554 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:18:13,555 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo2_history.xlsx
+INFO - 2026-01-17 12:18:13,555 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:18:13,555 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：demo3_history.xlsx
+INFO - 2026-01-17 12:19:51,059 - excel_drivel.py:150 -[excel_drivel:change_excel] - 没有检测到历史文件，无需修改，文件列表为demo1_.xlsx<UNK>
+INFO - 2026-01-17 12:19:51,059 - excel_drivel.py:150 -[excel_drivel:change_excel] - 没有检测到历史文件，无需修改，文件列表为demo2_.xlsx<UNK>
+INFO - 2026-01-17 12:19:51,059 - excel_drivel.py:150 -[excel_drivel:change_excel] - 没有检测到历史文件，无需修改，文件列表为demo3_.xlsx<UNK>
+INFO - 2026-01-17 12:21:29,294 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 12:21:29,294 - excel_drivel.py:56 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 12:21:29,294 - excel_drivel.py:72 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1_.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2_.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3_.xlsx'],开始执行测试用例
+INFO - 2026-01-17 12:21:29,295 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1_.xlsx
+INFO - 2026-01-17 12:21:29,295 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2_.xlsx
+INFO - 2026-01-17 12:21:29,295 - excel_drivel.py:93 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3_.xlsx
+INFO - 2026-01-17 12:21:29,301 - excel_drivel.py:97 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 12:21:29,302 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:21:29,306 - excel_drivel.py:97 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 12:21:29,306 - excel_drivel.py:97 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 12:21:29,307 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:21:29,307 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:21:30,644 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:21:30,645 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:21:30,675 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:21:32,325 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:21:32,396 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:21:32,439 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:21:32,703 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:21:32,770 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:21:32,815 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:21:33,071 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:21:33,422 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:21:33,586 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:21:33,604 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:21:33,681 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:21:34,310 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:21:35,082 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:21:35,153 - excel_drivel.py:97 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 12:21:35,153 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:21:35,594 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:21:35,667 - excel_drivel.py:97 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 12:21:35,667 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:21:36,324 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:21:36,411 - excel_drivel.py:97 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 12:21:36,411 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:21:36,485 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:21:36,951 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:21:37,756 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:21:38,197 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:21:38,364 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:21:38,444 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-17 12:21:38,971 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 12:21:38,978 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:21:39,544 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:21:39,718 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:21:39,784 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:21:39,922 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:21:40,062 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:21:40,147 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-17 12:21:40,360 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 12:21:40,367 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+ERROR - 2026-01-17 12:21:40,646 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 12:21:40,653 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:21:40,993 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:21:41,068 - excel_drivel.py:132 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1_.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 12:21:42,372 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:21:42,446 - excel_drivel.py:132 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2_.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 12:21:42,668 - excel_drivel.py:101 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:21:42,746 - excel_drivel.py:132 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3_.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 12:21:42,746 - main.py:42 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 12:21:42,746 - excel_drivel.py:157 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 3, 失败用例数: 3
+INFO - 2026-01-17 12:21:42,746 - excel_drivel.py:159 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1_.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-17 12:21:42,746 - excel_drivel.py:159 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2_.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-17 12:21:42,747 - excel_drivel.py:159 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3_.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-17 12:22:33,672 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1__20260117122141_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:22:33,672 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：.xlsxd.xlsxe.xlsxm.xlsxo.xlsx1.xlsx_.xlsx_.xlsx2.xlsx0.xlsx2.xlsx6.xlsx0.xlsx1.xlsx1.xlsx7.xlsx1.xlsx2.xlsx2.xlsx1.xlsx4.xlsx1.xlsx_.xlsxh.xlsxi.xlsxs.xlsxt.xlsxo.xlsxr.xlsxy.xlsx..xlsxx.xlsxl.xlsxs.xlsxx.xlsx
+INFO - 2026-01-17 12:22:33,672 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2__20260117122142_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:22:33,673 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：.xlsxd.xlsxe.xlsxm.xlsxo.xlsx2.xlsx_.xlsx_.xlsx2.xlsx0.xlsx2.xlsx6.xlsx0.xlsx1.xlsx1.xlsx7.xlsx1.xlsx2.xlsx2.xlsx1.xlsx4.xlsx2.xlsx_.xlsxh.xlsxi.xlsxs.xlsxt.xlsxo.xlsxr.xlsxy.xlsx..xlsxx.xlsxl.xlsxs.xlsxx.xlsx
+INFO - 2026-01-17 12:22:33,673 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3__20260117122142_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:22:33,673 - excel_drivel.py:148 -[excel_drivel:change_excel] - 修改成功，文件名为：.xlsxd.xlsxe.xlsxm.xlsxo.xlsx3.xlsx_.xlsx_.xlsx2.xlsx0.xlsx2.xlsx6.xlsx0.xlsx1.xlsx1.xlsx7.xlsx1.xlsx2.xlsx2.xlsx1.xlsx4.xlsx2.xlsx_.xlsxh.xlsxi.xlsxs.xlsxt.xlsxo.xlsxr.xlsxy.xlsx..xlsxx.xlsxl.xlsxs.xlsxx.xlsx
+INFO - 2026-01-17 12:29:54,657 - main.py:30 -[main:main] - 主程序开始运行...
+INFO - 2026-01-17 12:29:54,657 - excel_drivel.py:57 -[excel_drivel:find_testcase] - 开始查找testcase文件夹下的所有测试用例..............................
+INFO - 2026-01-17 12:29:54,657 - excel_drivel.py:73 -[excel_drivel:find_testcase] - 查询到3个测试用例文件，分别为：['C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo1.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo2.xlsx', 'C:\\Users\\Xie-Xixin\\Desktop\\python\\practice\\testcase\\demo3.xlsx'],开始执行测试用例
+INFO - 2026-01-17 12:29:54,658 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx
+INFO - 2026-01-17 12:29:54,658 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx
+INFO - 2026-01-17 12:29:54,658 - excel_drivel.py:94 -[excel_drivel:excel_run] - 正在加载Excel文件: C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx
+INFO - 2026-01-17 12:29:54,668 - excel_drivel.py:98 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 12:29:54,668 - excel_drivel.py:98 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 12:29:54,669 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:29:54,669 - excel_drivel.py:98 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet1
+INFO - 2026-01-17 12:29:54,670 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:29:54,670 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:29:56,117 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:29:56,147 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:29:56,317 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:29:57,262 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:29:57,344 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:29:57,481 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:29:57,918 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:29:57,988 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:29:58,036 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:29:58,092 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:29:58,126 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:29:58,177 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:29:58,233 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:29:58,620 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:29:59,137 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:30:00,138 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:30:00,209 - excel_drivel.py:98 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 12:30:00,209 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:30:00,634 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:30:00,704 - excel_drivel.py:98 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 12:30:00,704 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:30:01,144 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:30:01,216 - excel_drivel.py:98 -[excel_drivel:excel_run] - 当前sheet页名称为：Sheet2
+INFO - 2026-01-17 12:30:01,216 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：启动Chrome浏览器<UNK>
+INFO - 2026-01-17 12:30:01,831 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:30:03,057 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:30:03,557 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：访问百度首页<UNK>
+INFO - 2026-01-17 12:30:04,161 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:30:04,328 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:30:04,375 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:30:04,550 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+INFO - 2026-01-17 12:30:04,636 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:30:04,701 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+ERROR - 2026-01-17 12:30:05,110 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 12:30:05,130 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:30:05,506 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：输入黄财财关键字作为百度的搜索条件<UNK>
+ERROR - 2026-01-17 12:30:05,565 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 12:30:05,572 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:30:05,589 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：点击百度一下按钮<UNK>
+INFO - 2026-01-17 12:30:05,635 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：对测试结果进行断言<UNK>
+INFO - 2026-01-17 12:30:06,138 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:30:06,209 - excel_drivel.py:133 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx执行完成，已添加_history后缀名
+ERROR - 2026-01-17 12:30:06,358 - Webkey.py:98 -[Webkey:assert_text] - 断言失败，预期值为dadasdasd，实际值为黄财神关键字
+INFO - 2026-01-17 12:30:06,365 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：强制等待5秒<UNK>
+INFO - 2026-01-17 12:30:06,588 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:30:06,663 - excel_drivel.py:133 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 12:30:07,376 - excel_drivel.py:102 -[excel_drivel:excel_run] - 正在执行的操作为：关闭浏览器<UNK>
+INFO - 2026-01-17 12:30:07,447 - excel_drivel.py:133 -[excel_drivel:excel_run] - 测试用例文件：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx执行完成，已添加_history后缀名
+INFO - 2026-01-17 12:30:07,448 - main.py:42 -[main:main] - 主程序运行结束。
+INFO - 2026-01-17 12:30:07,448 - excel_drivel.py:169 -[excel_drivel:sum_pass_fail] - 测试执行完成，成功用例数: 3, 失败用例数: 3
+INFO - 2026-01-17 12:30:07,448 - excel_drivel.py:171 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo2.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-17 12:30:07,448 - excel_drivel.py:171 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo3.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-17 12:30:07,448 - excel_drivel.py:171 -[excel_drivel:sum_pass_fail] - 失败用例的位置：C:\Users\Xie-Xixin\Desktop\python\practice\testcase\demo1.xlsx下的：Sheet2第7行测试序号为：5的测试用例
+INFO - 2026-01-17 12:30:37,091 - excel_drivel.py:146 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_20260117123007_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:30:37,091 - excel_drivel.py:146 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_20260117123006_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:30:37,091 - excel_drivel.py:146 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_20260117123006_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:31:35,465 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo1_20260117123007_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:31:35,465 - excel_drivel.py:155 -[excel_drivel:change_excel] - 修改成功，文件名为：demo1.xlsx
+INFO - 2026-01-17 12:31:35,465 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo2_20260117123006_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:31:35,466 - excel_drivel.py:155 -[excel_drivel:change_excel] - 修改成功，文件名为：demo2.xlsx
+INFO - 2026-01-17 12:31:35,466 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_20260117123006_history.xlsx即将修改为原始文件名
+INFO - 2026-01-17 12:31:35,466 - excel_drivel.py:155 -[excel_drivel:change_excel] - 修改成功，文件名为：demo3.xlsx
