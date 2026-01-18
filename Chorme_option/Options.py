@@ -13,7 +13,7 @@ def chrome_options():
     options.page_load_strategy = 'normal'
 
     # 无头模式：浏览器不以窗口形式打开,而是在后台运行，可以减少浏览器的资源占用
-    options.add_argument('--headless')
+    # options.add_argument('--headless')
     # #OPTION中最常用的两种设置项修改方法
     # options.add_argument()
     # options.add_experimental_option()
@@ -46,7 +46,7 @@ def chrome_options():
     # options.add_argument(r"--user-data-dir=C:\Users\Xie-Xixin\AppData\Local\Google\Chrome\User Data")
 
     # 保持浏览器打开,因为浏览器打开后会自动关闭,所以需要设置保持浏览器打开
-    # options.add_experimental_option("detach", True)
+    options.add_experimental_option("detach", True)
     # 进一步去除控制台多余日志信息,如果去除了，会导致一些错误信息无法打印出来
     options.add_argument("--log-level=3")
     options.add_argument("--disable-gpu")

@@ -1,0 +1,5 @@
+INFO - 2026-01-18 14:34:14,990 - test_mall.py:28 -[test_mall:test_01_login] - No login data found in kwargs
+INFO - 2026-01-18 14:34:14,991 - test_mall.py:34 -[test_mall:test_02_edit_address] - No edit address data found in kwargs
+INFO - 2026-01-18 14:34:58,375 - test_mall.py:28 -[test_mall:test_01_login] - No login data found in kwargs
+INFO - 2026-01-18 18:57:14,802 - test_mall.py:29 -[test_mall:test_01_login] - No login data found in kwargs
+INFO - 2026-01-18 18:57:14,803 - test_mall.py:35 -[test_mall:test_02_edit_address] - No edit address data found in kwargs

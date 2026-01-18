@@ -523,3 +523,6 @@ INFO - 2026-01-17 12:31:35,465 - excel_drivel.py:145 -[excel_drivel:change_excel
 INFO - 2026-01-17 12:31:35,466 - excel_drivel.py:155 -[excel_drivel:change_excel] - 修改成功，文件名为：demo2.xlsx
 INFO - 2026-01-17 12:31:35,466 - excel_drivel.py:145 -[excel_drivel:change_excel] - 查询到历史已执行过的测试文件：demo3_20260117123006_history.xlsx即将修改为原始文件名
 INFO - 2026-01-17 12:31:35,466 - excel_drivel.py:155 -[excel_drivel:change_excel] - 修改成功，文件名为：demo3.xlsx
+INFO - 2026-01-17 22:45:38,659 - test_mall.py:28 -[test_mall:test_01_login] - No login data found in kwargs
+INFO - 2026-01-17 22:45:38,660 - test_mall.py:34 -[test_mall:test_02_edit_address] - No edit address data found in kwargs
+INFO - 2026-01-17 22:49:58,186 - test_mall.py:28 -[test_mall:test_01_login] - No login data found in kwargs

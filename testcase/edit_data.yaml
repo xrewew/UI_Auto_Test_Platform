@@ -1,0 +1,9 @@
+-
+  login:
+    user: test1
+    pwd: test1
+  edit_address:
+    name: test1
+    phone: 2312321321
+    email: 2313131232132@qq.com
+    detail: 广西南宁
